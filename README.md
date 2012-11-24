@@ -1,4 +1,5 @@
-burrows_wheeler_alignment
+Burrows Wheeler Alignment in Python
 =========================
 
-A python implementation of the Burrows Wheeler Alignment for DNA sequence matching
+This is a python implementation of the Burrows Wheeler Alignment for DNA sequence matching. 
+I wrote this to better understand the BWA algorithm, and to practice my Python skills.
