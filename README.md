@@ -1,8 +1,8 @@
-Burrows Wheeler Alignment in Python
+Burrows Wheeler DNA Sequence Alignment in Python
 =========================
 
-This is a python implementation of the Burrows Wheeler Alignment for DNA sequence matching. I wrote this to better understand the BWA algorithm, and to practice my Python skills.
-* It does NOT implement any of the heuristic methods included in the actual BWA algorithm, so implements the basic algorithm which returns 100% accurate results
+This is a python implementation of the Burrows Wheeler Alignment for DNA sequence matching. I wrote this to better understand the BWA algorithm, and to practice my Python skills. I recommend reading up about this algorithm [here](http://bioinformatics.oxfordjournals.org/content/25/14/1754.full.pdf) before diving into the implementation below.
+* It does not implement any of the heuristic methods included in the actual BWA algorithm, so implements the basic algorithm which returns 100% accurate results
 * It uses the Burrows-Wheeler transform (BWT), Suffix Array (SA), and 2 other auxillary datastructures C and Occ (sometimes called O)
 * It uses the D array to prune the tree search and speed up the inexact search algorithm.
 * The search is case insensitive.
