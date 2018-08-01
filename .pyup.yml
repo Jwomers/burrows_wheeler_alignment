@@ -3,8 +3,7 @@
 # allowed: all, insecure, False
 update: all
 
-sdfsdf,
-:
+
 
 # configure dependency pinning globally
 # default: True
@@ -24,22 +23,6 @@ schedule: "every day"
 # default: True
 # allowed: True, False
 search: True
-
-# Specify requirement files by hand, default is empty
-# default: empty
-# allowed: list
-requirements:
-  - requirements/staging.txt:
-      # update all dependencies and pin them
-      update: all
-      pin: True
-  - requirements/dev.txt:
-      # don't update dependencies, use global 'pin' default
-      update: False
-  - requirements/prod.txt:
-      # update insecure only, pin all
-      update: insecure
-      pin: True
 
 # add a label to pull requests, default is not set
 # requires private repo permissions, even on public repos
